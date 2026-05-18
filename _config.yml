@@ -1,0 +1,102 @@
+---
+booktitle: Proceedings of The 8th International Conference on Medical Imaging with
+  Deep Learning
+publisher: PMLR
+series: Proceedings of Machine Learning Research
+volume: '301'
+year: '2025'
+shortname: MIDL
+start: &1 2025-07-09
+end: 2025-07-11
+published: 2026-05-18
+layout: proceedings
+issn: 2640-3498
+id: MIDL2025
+month: 0
+cycles: false
+bibtex_editor: Tasdizen, Tolga and Elhabian, Shireen and Summers, Ronald and Chen,
+  Chen and Koch, Lisa and Zhuang, Yan
+editor:
+- given: Tolga
+  family: Tasdizen
+- given: Shireen
+  family: Elhabian
+- given: Ronald
+  family: Summers
+- given: Chen
+  family: Chen
+- given: Lisa
+  family: Koch
+- given: Yan
+  family: Zhuang
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of The 8th International Conference on Medical Imaging with Deep Learning
+    Held in Salt Lake City, USA on 09-11 July 2025
+
+  Published as Volume 301 by the Proceedings of Machine Learning Research on 18 May 2026.
+
+  Volume Edited by:
+    Tolga Tasdizen
+    Shireen Elhabian
+    Ronald Summers
+    Chen Chen
+    Lisa Koch
+    Yan Zhuang
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: '09--11 Jul'
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v301"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v301
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v301
+email: ''
+conference:
+  name: The 8th International Conference on Medical Imaging with Deep Learning
+  url: https://2025.midl.io/
+  location: Salt Lake City, USA
+  dates:
+  - *1
+  - 2025-07-10
+  - 2025-07-11
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+link_visibility:
+  openreview: true
+  pdf: true
+  supplementary: true
+  software: true
+  video: true
+  arxiv: true
+  doi: true
+  website: true
+orig_bibfile: MIDL2025_clean.bib
+# Site settings
+# Original source:  MIDL2025_clean.bib
